@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+}
+ul li {
+    background: #7c77b9;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    color: #fcfcfc;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+ul li span {
+    font-size: 2rem;
+}
+
+.section-music {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-music h4 {
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.section-data h1 {
+    font-family: 'Prompt', sans-serif;
+    color: #efb810;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.section-data h3 {
+    font-family: 'Prompt', sans-serif;
+    color: #efb810;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.section-how_much {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.section-how_much .content-count {
+    display: flex;
+    justify-content: center;
+}
+
+.section-how_much h1 {
+    font-family: 'Prompt', sans-serif;
+    color: #efb810;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.card-how_much h5 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.section-gallery_photos h1 {
+    font-family: 'Prompt', sans-serif;
+    color: #efb810;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.section-cards .cards-content {
+    width: 15rem;
+}
+
+.section-cards .cards-content-a {
+    width: 18rem;
+}
+
+
+
+@media(min-width: 1200px) {
+    .section-music {
+        position: relative;
+        top: -22px;
+    }
+    
+   .section-cards .cards-content {
+        width: 22rem;
+    }
+
+    .section-cards .cards-content-a {
+        width: 22rem;
+    }
+}
